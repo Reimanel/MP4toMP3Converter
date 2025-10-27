@@ -1,0 +1,5 @@
+{
+  "name": "MP4 to Audio Converter",
+  "description": "A powerful in-browser tool to convert MP4 video files to MP3 or WAV audio formats. Users can choose to preserve the original audio quality or compress the output to a specific file size.",
+  "requestFramePermissions": []
+}
