@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   return {
     base: './',
     server: {
-      port: 3001,
+      port: 3002,
       host: '0.0.0.0',
       middlewareMode: false,
       headers: {
@@ -35,6 +35,9 @@ export default defineConfig(({ mode }) => {
           global: 'globalThis',
         },
       },
+    },
+    worker: {
+      format: 'es',
     },
     plugins: [corsPlugin(), react()],
     define: {
